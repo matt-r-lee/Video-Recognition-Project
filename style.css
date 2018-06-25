@@ -1,0 +1,25 @@
+
+.jumbotron {
+  background-image: url("edit.jpg");
+  background-size: cover;
+}
+
+#profile-pic {
+    border-radius: 50%;
+    height: 125px;
+    width: 125px;
+    margin-right: 9px;
+    margin-bottom: 20px;
+    float: left;
+}
+
+.vidbox {
+    display: block;
+    margin: auto;
+}
+
+a.anchor {
+  display: block;
+  position: relative;
+  top: -90px;
+  visibility: hidden; }
