@@ -1,4 +1,10 @@
 
+.navbar .navbar-brand {
+  color: rgba(255,255,255, 0.85);
+  font-size: 1rem;
+}
+
+
 .jumbotron {
   background-image: url("edit.jpg");
   background-size: cover;
@@ -23,3 +29,21 @@ a.anchor {
   position: relative;
   top: -90px;
   visibility: hidden; }
+
+.active:hover {
+    transform: scale(.98);
+}
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+    left: 0;
+	width: 100%;
+	height: 100%;
+}

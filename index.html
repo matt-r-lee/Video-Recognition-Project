@@ -17,7 +17,7 @@
 <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
   <div class="container">
-      <a class="navbar-brand order-1 mr-0" href="http://www.teamtreehouse.com" target="_blank">Work In Progress</a>
+      <a class="navbar-brand order-1 mr-0" href="http://www.mattrlee.com" target="_blank">Work In Progress</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -73,6 +73,8 @@
         <p>My Professional Sites:</p>
             <a target="_blank" href="https://www.linkedin.com/in/matthewryanlee/">LinkedIn</a><br>
             <a target="_blank" href="https://github.com/matt-r-lee">GitHub</a>
+            <p></p>
+            <br>
     </div> <!-- end class div -->
     <div class="col-lg order-lg-3">
       <h3 class="mb-4">Features</h3>
@@ -87,14 +89,18 @@
 
 
 <!--Video Player -->
+
       <h1 id="video-player" class="display-4 text-center my-5 text-muted">Video Module</h1>
-      <iframe class="vidbox" width="960" height="540" src="https://www.youtube.com/embed/2OZrFWtRqcw?rel=0&amp;controls=0&amp;showinfo=0&amp;start=163" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      <div class="videoWrapper">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/2OZrFWtRqcw?rel=0&amp;showinfo=0&amp;start=164" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      </div>
 <!--End Video Player-->
 
 <!-- Features -->
-      <h1 id="schedule" class="display-4 text-center my-5 text-muted">Features</h1>
+      <h1 id="features" class="display-4 text-center my-4 text-muted">Features</h1>
       <div class="row">
-            <div class="col-md-6 col-lg-4" id="colorgrade">
+          <!-- <div class="active"> -->
+            <div class="col-md-4 active" id="colorgrade">
               <div class="card mb-3">
               <img class="card-img-top" src="color.jpeg" alt="ColorGrading">
               <div class="card-body">
@@ -103,8 +109,9 @@
               </div>
               </div>
             </div>
-
-            <div class="col-md-6 col-lg-4" id="videotrans">
+        <!-- </div>
+        <div class="active"> -->
+            <div class="col-md-4 active" id="videotrans">
               <div class="card mb-3">
               <img class="card-img-top" src="car.jpg" alt="VideoTransitions">
               <div class="card-body">
@@ -113,8 +120,9 @@
               </div>
               </div>
             </div>
-
-            <div class="col-md-6 col-lg-4" id="fonts">
+        <!-- </div>
+        <div class="active"> -->
+            <div class="col-md-4 active" id="fonts">
               <div class="card mb-3">
               <img class="card-img-top" src="words.jpg" alt="Fonts">
               <div class="card-body">
@@ -123,20 +131,21 @@
               </div>
               </div>
             </div>
+        <!-- </div> -->
       </div>
 <!-- End Features-->
 
 <!--callout button-->
-    <button type="button" class="btn btn-warning btn-lg d-block mx-auto my-5" data-toggle="modal" data-target="#register">I'd LOVE Your Support!</button>
+    <!-- <button type="button" class="btn btn-warning btn-lg d-block mx-auto my-5" data-toggle="modal" data-target="#register">I'd LOVE Your Support!</button> -->
 
 <!-- signup form -->
     <hr>
         <div class="row py-4 text-muted">
-          <div class="col-md col-xl-5">
+          <div class="col-md col-xl-8">
             <p><strong>About VidRec</strong></p>
             <p>This proect begins my intial dive into machine learning starting with utilization of image recognition.</p>
           </div>
-          <div class="col-md col-xl-5">
+          <div class="col-md col-xl-4">
             <p><strong>Stay up-to-date on future projects</strong></p>
             <div class="input-group">
               <input type="email" class="form-control" placeholder="Email">
@@ -185,7 +194,7 @@
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header bg-info text-white">
-        <h5 class="modal-title" id="exampleModalLabel">Register for Full Stack Conf</h5>
+        <h5 class="modal-title" id="exampleModalLabel">@ Matt Lee</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -194,7 +203,7 @@
 
        <form>
          <div class="alert alert-warning alert-dismissible fade show" role="alert">
-          <strong>Hurry!</strong> Early bird registration ends in two days.
+          <strong>Thanks for the supprt!</strong> If you would like to stay in the loop fill out your contact information below:
           <button type="button" class="close" data-dismiss="alert" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
@@ -209,7 +218,7 @@
           <label class="form-control-label" for="email">Email:</label>
           <input type="email" class="form-control" id="email">
         </div>
-         <div class="form-group">
+         <!-- <div class="form-group">
           <label for"role">Job Role:</label>
            <select class="custom-select form-control" id="role">
               <option value="full stack js developer">Full Stack JavaScript Developer</option>
@@ -218,48 +227,50 @@
               <option value="designer">Designer</option>
               <option value="student">Student</option>
            </select>
-         </div>
+         </div> -->
 
          <hr class="my-4">
-         <h5 class="mb-4">Which Topics Interest You Most?</h5>
+         <h5 class="mb-4">Which Interests You Most?</h5>
 
          <div class="form-check">
          <label class="custom-control custom-checkbox">
-         <input class="custom-control-input" type="checkbox">
+         <!-- <input class="custom-control-input" type="checkbox"> -->
            <span class="custom-control-indicator"></span>
-           <span class="custom-control-description">JavaScript Frameworks</span>
+           <span class="custom-control-description">Web Design</span>
          </label>
          </div>
          <div class="form-check">
          <label class="custom-control custom-checkbox">
          <input class="custom-control-input" type="checkbox">
            <span class="custom-control-indicator"></span>
-           <span class="custom-control-description">JavaScript Libraries</span>
+           <span class="custom-control-description">HTML/CSS</span>
          </label>
          </div>
          <div class="form-check">
          <label class="custom-control custom-checkbox">
          <input class="custom-control-input" type="checkbox">
            <span class="custom-control-indicator"></span>
-           <span class="custom-control-description">Node.JS</span>
+           <span class="custom-control-description">JavaScript</span>
+         </label>
+          <hr class="mb-4">
+         </div>
+         <div class="form-check">
+         <label class="custom-control custom-checkbox">
+         <input class="custom-control-input" type="checkbox">
+           <span class="custom-control-indicator"></span>
+           <span class="custom-control-description">Adobe Photoshop</span>
          </label>
          </div>
          <div class="form-check">
          <label class="custom-control custom-checkbox">
          <input class="custom-control-input" type="checkbox">
            <span class="custom-control-indicator"></span>
-           <span class="custom-control-description">Build Tools</span>
-         </label>
-         </div>
-         <div class="form-check">
-         <label class="custom-control custom-checkbox">
-         <input class="custom-control-input" type="checkbox">
-           <span class="custom-control-indicator"></span>
-           <span class="custom-control-description">ES2015</span>
+           <span class="custom-control-description">Final Cut Pro</span>
          </label>
          </div>
 
-         <hr class="mb-4">
+         <!-- Payment Info -->
+         <!-- <hr class="mb-4">
          <h5 class="mb-4">Payment Info</h5>
          <div class="form-row">
           <div class="col-lg-6 form-group">
@@ -311,11 +322,11 @@
             </select>
 
            </div>
-         </div>
+         </div> -->
 
          <hr class="mb-4">
 
-           <button type="submit" class="btn btn-primary btn-lg">Register</button>
+           <button type="submit" class="btn btn-primary btn-lg btn-block">Submit</button>
        </form>
 
       </div>
